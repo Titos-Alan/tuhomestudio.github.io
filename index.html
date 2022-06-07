@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/78e29a3f0a.js" crossorigin="anonymous"></script> <!-- libreria -->
+    <title>TuHomeStudio</title>
+</head>
+<body>
+    <header>  <!-- header --> 
+        <nav>
+            <div class="logo">
+                <a href="./index.html"><img src="./img/image2vector.svg" alt=""></a> 
+            </div>
+
+            <input type="checkbox" id="click" >  <!-- interaccion boton -->
+            <label for="click" class="menu-btn"><!-- boton nav -->    
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <ul>
+                <li><a href="./elementos/auriculares.html">Auriculares</a></li>
+                <li><a href="./elementos/interfaces.html">Interfaces</a></li>
+                <li><a href="./elementos/microfonos.html">Microfonos</a></li>
+                <li><a href="./elementos/midis.html">MIDIs</a></li>
+  
+            </ul>
+        </nav>
+    </header>
+
+    <section id="slider-fotos"> <!-- slider --> 
+        <div class="container-all">
+            
+            <input type="radio" id="1" name="img-slide" hidden>
+            <input type="radio" id="2" name="img-slide" hidden>
+            <input type="radio" id="3" name="img-slide" hidden>
+
+            <div class="slide"> <!-- slider -->
+                <div class="item-slide">
+                    <div class="contenido-slider">      
+                        <h1>¡Lo básico que tenes que saber para tu home studio!</h1>
+                        <a href="#data-home-studio"><button>¡Haz click aqui para saber mas!</button></a>
+                    </div>
+                    <img src="./img/1.jpg" alt="">
+                </div>
+                <div class="item-slide">
+                    <div class="contenido-slider">      
+                        <h1>¡Lo mejor para comenzar en interfaces de audio!</h1>
+                        <a href="./elementos/interfaces.html"><button>¡Haz click aqui para saber mas!</button></a>
+                    </div>
+                    <img src="./img/2.jpg" alt="">
+                </div>
+                <div class="item-slide">
+                    <div class="contenido-slider">      
+                        <h1>MIDI controllers ¿Para que nos sirve?</h1>
+                        <a href="./elementos/midis.html"><button>¡Haz click aqui para saber mas!</button></a>
+                    </div>
+                    <img src="./img/3.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="paginacion"> <!-- nav slider -->
+                <label for="1" class="paginacion-item">
+                    <img src="./img/1.jpg" alt="">
+                </label>
+                <label for="2" class="paginacion-item">
+                    <img src="./img/2.jpg" alt="">
+                </label>
+                <label for="3" class="paginacion-item">
+                    <img src="./img/3.jpg" alt="">
+                </label>
+            </div>
+
+        </div>
+    </section>
+    <section id="parallax">
+        <div class="parallax-contenido">
+            <h2>Todo lo básico que tenes que saber sobre los home studio</h2>
+        </div>
+    </section>
+
+    <section id="data-home-studio">
+        <div class="main-container">
+            <div class="whhomestudio">
+                <p>El Home Studio no es mas que un "estudio casero".... así de simple; un lugar en tu hogar o en el hogar de cualquier persona dedicado al arte de la grabación y tratamiento de audio. Este lugar está acondicionado en general, para tratar de estár lo mas comodo posible para realizar proyectos musicales, por lo que se encuentran muchos equipos, y en los que por lo general, solo hay una PC, un microfono y cualquier instrumento ya sea armónico o percusivo. Quizas hayan mas cosas, o menos cosas, pero mi definición de Home Studio creo que no se aleja mucho de la realidad. Por la red se encuentran muchas definiciones de Home Studio, hasta muy profesionales, así que les recomiendo siempre tener una segunda o tercera opinión a considerar en cuanto al tema. Muy pronto subiré mas información y espero les agrade la intención.</p>
+                <div class="main-img">
+                    <img src="./img/ft-home.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="parallax">
+        <div class="parallax-contenido">
+            <h2>¿Que necesito?</h2>
+        </div>
+    </section>
+
+    <section id="data-home-studio">
+        <div class="main-container">
+            <div class="whhomestudio">
+                <h2>Hardware</h2>
+                <p>Serán todos los elementos fisicos que compondran nuestro home studio, mencionaremos los más básicos e importantes para empezar.</p>
+                <div class="main-img">
+                    <img src="./img/hardware.jpg" alt="">
+                </div>
+                <div class="lista-hardware">
+                    <li><a href="./elementos/auriculares.html">Auriculares</a></li>
+                    <li><a href="./elementos/interfaces.html">Interfaces</a></li>
+                    <li><a href="./elementos/microfonos.html">Microfonos</a></li>
+                    <li><a href="./elementos/midis.html">MIDIs</a></li>
+ 
+                </div>
+            </div>
+
+
+            <div class="whhomestudio-soft">
+                <h2>Software</h2>
+                <p>Serán todos los elementos logicos que compondran nuestro home studio, es decir, las aplicaciones que usaremos para poder componer musica.</p>
+                <div class="main-img">
+                    <img src="./img/banner-soft.png" alt="">
+                </div>
+                <div class="definiciones-soft">
+                    <h3>Secuenciador (DAW)</h3>
+                    <p>existen secuenciadores analógicos, pero en la actualidad y gracias a la evolución del audio digital podemos utilizar técnicas con un ahorro de tiempo muy considerable a un precio mucho más económico. Los más utilizados en  los Home Studios suelen ser Ableton Live, Logic Pro, Cubase y ProTools.</p>
+                </div>
+                <div class="definiciones-soft">
+                    <h3>Instrumentos VST / AU</h3>
+                    <p>aunque al comprar tu secuenciador vendrá con algunos instrumentos pero siempre es bueno hacerse con emulaciones de instrumentos clásicos y otros más novedosos. Marcas como Arturia y Native Instruments tienen un amplio catálogo de instrumentos virtuales. Los VST fueron creados por Steinberg y son compatibles con Windows y MAC (excepto en Logic). Los Audio Units (AU) son creados para ordenadores Apple.</p>
+                </div>
+                <div class="definiciones-soft">
+                    <h3>Efectos VST / AU</h3>
+                    <p>Al igual que los instrumentos, necesitarás ecualizadores, compresores, delays, reverbs, distorsiones, etc… Existen muchas marcas y productos pero destacamos Waves y Fabfilter. Existen otros sistemas independientes que no sobrecargan la CPU, pero los veremos más adelante.</p>
+                </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-contenido">
+            <h3>TuHomeStudio</h3>
+            <p>Pagina web destinada a la informacion básica sobre los "Home Studio"</p>
+        </div>
+        <div class="footer-bot">
+            <p>Design by - Titos Alan</p>
+        </div>
+    </footer>
+
+</body>
+</html>
